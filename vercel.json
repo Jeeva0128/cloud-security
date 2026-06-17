@@ -1,0 +1,12 @@
+{
+  "buildCommand": "",
+  "framework": "static",
+  "public": true,
+  "cleanUrls": true,
+  "rewrites": [
+    {
+      "source": "/:path((?!.*\\.).*)",
+      "destination": "/"
+    }
+  ]
+}
