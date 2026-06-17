@@ -1,11 +1,3 @@
 {
-  "buildCommand": "",
-  "framework": "static",
-  "cleanUrls": true,
-  "rewrites": [
-    {
-      "source": "/:path((?!.*\\.).*)",
-      "destination": "/"
-    }
-  ]
+  "cleanUrls": true
 }
